@@ -1,0 +1,20 @@
+.card {
+  width: 50vw;
+  height: 60vh;
+  margin-left: 25vw;
+  margin-top: 20vh;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px grey;
+          box-shadow: 10px 10px grey;
+  background-color: white;
+}
+
+.time {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.countdown {
+  font-size: 100px;
+}

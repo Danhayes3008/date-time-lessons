@@ -23,7 +23,8 @@ const Countdown = ({hoursMinSecs}) => {
     });
   return (
     <div>
-        <p>{`${hrs.toString().padStart(1, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`}</p>
+        <h2>Countdown:</h2>
+        <p className='countdown'>{`${hrs.toString().padStart(1, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`}</p>
     </div>
   );
 }
