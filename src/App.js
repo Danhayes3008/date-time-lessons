@@ -11,7 +11,6 @@ function App() {
     <div className="App">
          <Clock />
          <Countdown hoursMinSecs={hoursMinSecs}/>
-         <Resources />
     </div>
   );
 }
